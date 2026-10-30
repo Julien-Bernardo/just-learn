@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**AI is making your kids dumber.**
+**AI is making our kids dumber.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/homework-vs-exam-dark.svg">
@@ -15,14 +15,14 @@ The paper's explanation is that 81% of AI users weren't being tutored. They were
 
 **So the problem isn't AI. It's who does the thinking.**
 
-I built Just Learn to fix that. It's a free skill that turns ChatGPT, Gemini or Claude into a learning coach for your kid. Instead of doing the homework, the coach:
+I built Just Learn to fix that. It's a free skill that turns ChatGPT, Gemini or Claude into a learning coach for our kids. Instead of doing the homework, the coach:
 
 - asks for their attempt first
 - lets them catch their own mistake
 - gives the smallest hint that works
 - never just hands over the answer
 
-It's built on learning science you can check. You set it up once, with one copy-paste, in the AI your kid already uses ([how](#installation-one-copy-paste)).
+It's built on learning science you can check. You set it up once, with one copy-paste, in whatever AI they already use ([how](#installation-one-copy-paste)).
 
 **Heads up:** every test so far uses **simulated** students: AI playing the students, the tutors and the judges. It hasn't been tested with real kids yet. If you're a parent or teacher who could help with that, please [open an issue](../../issues).
 
@@ -134,7 +134,7 @@ The full transcripts are in [`research/simulation/round5/`](research/simulation/
 
 ## Installation (one copy-paste)
 
-### 1. Add the skill to your kid's AI
+### 1. Add the skill to the AI our kids use
 
 **Check the age rules first** for the app your child uses ([see below](#age-rules-and-privacy)). If your child is too young for their own account, use yours and sit with them. The skill has guidance for a parent typing for a young child.
 
@@ -252,7 +252,7 @@ It's still about twice as slow as a chatbot that gives answers, and that's the b
 
 ## Summary
 
-The tool isn't the problem. The problem is the AI doing the thinking. Just Learn keeps your kid doing it, with the least help that works. Set it up before tonight's homework and see.
+The tool isn't the problem. The problem is the AI doing the thinking. Just Learn keeps our kids doing it, with the least help that works. Set it up before tonight's homework and see.
 
 ## For students
 
