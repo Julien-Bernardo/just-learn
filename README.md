@@ -2,18 +2,20 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-AI that teaches instead of doing the homework.
+**AI is making you dumber.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/homework-vs-exam-dark.svg">
   <img alt="Chart: average exam score by homework score for 26,811 secondary students in China. For students who never used AI, higher homework scores go with higher exam scores. For AI users, exam scores peak at a homework score of about 100, then fall to about 64 as homework scores rise to 130." src="assets/homework-vs-exam-light.svg" width="800">
 </picture>
 
-Students who use AI for homework hand in better homework and do worse in exams. In a study of 26,811 students in China, AI users with above-average homework scores did *worse* in exams the better their homework got. The paper's explanation is that most AI users weren't being tutored; they were outsourcing their homework ([chart data](research/figures/)).
+A study tracked 26,811 secondary students in China for 30 months. AI users' homework scores rose 18%, and their closed-book exam scores fell 20%. For students who never used AI, better homework goes with better exams. For AI users, it flips: past a certain point, the better the homework, the worse the exam.
 
-I built Just Learn after seeing that chart. It's one prompt, also packaged as a Claude skill, that turns ChatGPT, Gemini or Claude into a learning coach. The coach asks for your attempt, lets you catch your own mistake, gives the smallest hint that gets you moving, and leaves the thinking with you.
+The paper's explanation is that 81% of AI users weren't being tutored. They were outsourcing their homework, so the AI did the work and the AI did the learning. Students who spent the same time on their homework got similar exam scores, with or without AI. ([Chart data](research/figures/).)
 
-It's free and small, and it's built on learning science you can check. Paste it into the chatbot you already use.
+**So the problem isn't AI. It's who does the thinking.**
+
+I built Just Learn to fix that. It's one prompt, also packaged as a Claude skill, that turns ChatGPT, Gemini or Claude into a learning coach. The coach asks for your attempt, lets you catch your own mistake, gives the smallest hint that gets you moving, and leaves the thinking with you. It's free and small, and it's built on learning science you can check. Paste it into the chatbot you already use.
 
 **Heads up:** every test so far uses **simulated** students: AI playing the students, the tutors and the judges. It hasn't been tested with real students yet. If you're a teacher who could help with that, please [open an issue](../../issues).
 
@@ -180,7 +182,7 @@ Studies keep finding the same thing. AI can make students learn more or learn le
 **The Problem.** Ask a standard chatbot for help and it solves the problem. The homework gets better, but the AI does the learning.
 
 - **Bastani et al.:** a field experiment with nearly 1,000 high-school maths students. Unrestricted GPT-4 raised practice scores, but once it was taken away, students did **17% worse** than students who never had it.
-- **[Strömberg, Lei & Wu, 2026](https://ssrn.com/abstract=6868618):** a study of 26,811 Chinese secondary students over 30 months. AI users' homework scores rose **18%** while their closed-book exam scores fell **20%**. This is an observational working paper, not a randomised trial.
+- **[Strömberg, Lei & Wu, 2026](https://ssrn.com/abstract=6868618):** the China study in the chart at the top. Homework scores rose **18%** while closed-book exam scores fell **20%**. It's an observational working paper, not a randomised trial.
 - **Our tests:** given a photo of a whole worksheet, the standard chatbot answered every question on it.
 
 **The Fix.** The coach doesn't solve the problem the student is working on. It starts from their attempt. If they're in a hurry, it offers a deal: this one together, the next one alone. It won't write graded work, and it won't help disguise copied work.
