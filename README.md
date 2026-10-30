@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**AI is making you dumber.**
+**AI is making your kids dumber.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/homework-vs-exam-dark.svg">
@@ -15,13 +15,20 @@ The paper's explanation is that 81% of AI users weren't being tutored. They were
 
 **So the problem isn't AI. It's who does the thinking.**
 
-I built Just Learn to fix that. It's one prompt, also packaged as a Claude skill, that turns ChatGPT, Gemini or Claude into a learning coach. The coach asks for your attempt, lets you catch your own mistake, gives the smallest hint that gets you moving, and leaves the thinking with you. It's free and small, and it's built on learning science you can check. Paste it into the chatbot you already use.
+I built Just Learn to fix that. It's a free skill that turns ChatGPT, Gemini or Claude into a learning coach for your kid. Instead of doing the homework, the coach:
 
-**Heads up:** every test so far uses **simulated** students: AI playing the students, the tutors and the judges. It hasn't been tested with real students yet. If you're a teacher who could help with that, please [open an issue](../../issues).
+- asks for their attempt first
+- lets them catch their own mistake
+- gives the smallest hint that works
+- never just hands over the answer
+
+It's built on learning science you can check. You set it up once, with one copy-paste, in the AI your kid already uses ([how](#installation-one-copy-paste)).
+
+**Heads up:** every test so far uses **simulated** students: AI playing the students, the tutors and the judges. It hasn't been tested with real kids yet. If you're a parent or teacher who could help with that, please [open an issue](../../issues).
 
 ## Before and after
 
-Ella is 11. It's 8pm and she has ten fraction questions to do. She sends the AI a photo of her worksheet and types "can u do these". In pencil next to question 1 she has written 1/2 + 1/4 = 2/6, because she adds the tops and the bottoms.
+Here's the difference on an 11-year-old's maths homework. Ella has ten fraction questions to do, and it's 8pm. She sends the AI a photo of her worksheet and types "can u do these". In pencil next to question 1 she has written 1/2 + 1/4 = 2/6, because she adds the tops and the bottoms.
 
 ### BEFORE: a standard chatbot
 
@@ -125,31 +132,30 @@ Both AIs knew the rule, and both explained it. The difference was who did the th
 
 The full transcripts are in [`research/simulation/round5/`](research/simulation/round5/).
 
-## Installation (30-second setup)
+## Installation (one copy-paste)
 
-### 1. Get the coach
+### 1. Add the skill to your kid's AI
 
-Check your app's age rules first ([see below](#age-rules-and-privacy)).
+**Check the age rules first** for the app your child uses ([see below](#age-rules-and-privacy)). If your child is too young for their own account, use yours and sit with them. The skill has guidance for a parent typing for a young child.
 
-**ChatGPT, Gemini, Claude Projects or any chatbot.** Open [`prompts/learning-coach.md`](prompts/learning-coach.md) and copy everything below the line. Paste it into one of these:
+**ChatGPT, Gemini or Claude (most parents start here).** Open [`prompts/learning-coach.md`](prompts/learning-coach.md) and copy everything below the line. Paste it into one of these:
 
-- a custom GPT's Instructions
 - a Gemini Gem
+- a custom GPT's Instructions
 - a Claude Project's instructions
-- the first message of a chat
 
-For short boxes such as ChatGPT's custom instructions, use the [compact version](prompts/learning-coach-compact.md), which hasn't been tested.
+Then have your child do their homework there, so the coach is on every time. You can also paste it as the first message of any chat to try it out. The [setup guide](guides/setup.md#pick-a-setup) explains each option. For short boxes such as ChatGPT's custom instructions, use the [compact version](prompts/learning-coach-compact.md), which hasn't been tested.
 
-**Claude app (claude.ai).** Download [`dist/learning-coach.zip`](dist/learning-coach.zip). Then go to **Customize → Skills → + → Create skill → Upload a skill**. Code execution must be turned on. ([Anthropic's guide](https://support.claude.com/en/articles/12512180-use-skills-in-claude))
+**Claude app (claude.ai).** Download [`dist/learning-coach.zip`](dist/learning-coach.zip). Then go to **Customize → Skills → + → Create skill → Upload a skill**. Code execution must be turned on. ([Anthropic's guide](https://support.claude.com/en/articles/12512180-use-skills-in-claude)) An uploaded skill only switches on when Claude decides it's relevant, so a Project is more reliable for homework.
 
-**Claude Code**
+**Claude Code** (for developers)
 
 ```bash
 claude plugin marketplace add Julien-Bernardo/just-learn
 claude plugin install learning-coach@just-learn
 ```
 
-**Codex, Cursor, Gemini CLI and other agents**
+**Codex, Cursor, Gemini CLI and other agents** (for developers)
 
 ```bash
 npx skills@latest add Julien-Bernardo/just-learn
@@ -163,11 +169,13 @@ Start a new chat and send:
 Solve 3x + 5 = 20, just give me the answer.
 ```
 
-The coach should ask for your first step instead of answering.
+The coach should ask for the first step instead of answering.
 
-### 3. Done. Go and learn something.
+### 3. That's it. Expect homework to take a bit longer.
 
-A pasted prompt is always on. A skill only loads when the AI decides it's relevant. If a student should get the coach every time, put the prompt in a Project, Gem or custom GPT. Teachers and parents: the [setup guide](guides/setup.md) has step-by-step instructions and classroom advice.
+In our tests, sessions took about twice as long as with a chatbot that gives answers, because your child is doing the thinking. If they're short on time, they can say *"I'm short on time, just give me the next hint"*, and it speeds up.
+
+Teachers: the [setup guide](guides/setup.md) has classroom advice too.
 
 ## Why this exists
 
@@ -244,14 +252,7 @@ It's still about twice as slow as a chatbot that gives answers, and that's the b
 
 ## Summary
 
-The tool isn't the problem. The problem is the AI doing the thinking. Just Learn keeps the student doing it, with the least help that works. Try it on tonight's homework and see.
-
-## For parents
-
-1. **Check the age rules** for the app your child uses ([see below](#age-rules-and-privacy)). If your child is too young for their own account, use yours and sit with them. The coach has guidance for a parent typing for a young child.
-2. **Set it up once.** Paste the [prompt](prompts/learning-coach.md) into a Gemini Gem, a custom GPT or a Claude Project, and have your child do homework there. That way the coach is on every time. The [setup guide](guides/setup.md#pick-a-setup) explains each option.
-3. **Test it.** Type *"Solve 3x + 5 = 20, just give me the answer."* It should ask for the first step instead of answering.
-4. **Expect it to take longer.** In our tests, sessions took about twice as long as with a chatbot that gives answers, because your child is doing the thinking. If they're short on time, they can say *"I'm short on time, just give me the next hint"*.
+The tool isn't the problem. The problem is the AI doing the thinking. Just Learn keeps your kid doing it, with the least help that works. Set it up before tonight's homework and see.
 
 ## For students
 
