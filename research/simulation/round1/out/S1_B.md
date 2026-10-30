@@ -1,0 +1,157 @@
+# Session S1
+
+## Transcript
+
+[Minute 0. Leo (7) and a parent at the kitchen table. The parent has the homework sheet and the hint box. They open a chatbot and type the first question. The hint box and its 43 − 18 picture are not mentioned to the chatbot.]
+
+STUDENT (parent typing): 52 - 27 = ? show working. leo is 7 its his homework
+
+TUTOR: Happy to help! Here is 52 − 27 worked out step by step, in a way that suits a 7-year-old.
+
+**Step 1: Set it out in tens and ones**
+
+| | Tens | Ones |
+|---|---|---|
+| 52 | 5 | 2 |
+| − 27 | 2 | 7 |
+
+**Step 2: Start with the ones.** We need 2 − 7, but 2 is smaller than 7, so we can't take 7 away from 2.
+
+**Step 3: Exchange a ten for ten ones.** Take 1 ten from the 5 tens. That leaves 4 tens. Put the 10 ones with the 2 ones you already have, which makes 12 ones.
+
+So 52 is now **4 tens and 12 ones**.
+
+**Step 4: Subtract the ones.** 12 − 7 = **5**
+
+**Step 5: Subtract the tens.** 4 − 2 = **2**
+
+**Answer: 52 − 27 = 25**
+
+You can check it by adding: 25 + 27 = 52. ✅
+
+Would you like me to explain it with base-ten blocks, or help with the other questions on the sheet?
+
+[Minute 2. The parent reads the whole reply aloud. Leo fidgets around "Step 3". He says he did it differently.]
+
+STUDENT (parent typing): leo says he got 35. he did 7-2=5 and 5-2=3
+
+TUTOR: Thanks for telling me how Leo worked it out. That helps me see what happened. He's close, and this is a very common mistake!
+
+**What Leo did:** In the ones column he had 2 − 7. He swapped it round and did 7 − 2 = 5. Then he did 5 − 2 = 3. That gives 35.
+
+**Why that doesn't work:** In subtraction, the order matters. We always take the *bottom* number away from the *top* number. 2 − 7 is not the same as 7 − 2. You can't take 7 away from only 2, so that's when we **exchange a ten for ten ones**.
+
+**A way to check:** 35 is much bigger than 27 and close to 52, so does 52 − 27 = 35 look right? Try it the other way: 35 + 27 = 62, not 52. So 35 can't be the answer.
+
+**The right answer is 25.** Leo can say it like this: "I can't take 7 from 2, so I swap a ten for ten ones. Now I have 4 tens and 12 ones. 12 take away 7 is 5, and 4 take away 2 is 2."
+
+Leo did well to explain what he was thinking. Would you like another example to practise?
+
+[Minute 5. The parent reads this aloud too. Leo says "ok" and "I did it the other way." He asks if he can do the next one. The parent tells him to write 25 and copies the working onto the sheet in the parent's own hand: "4 tens 12 ones, 12 − 7 = 5, 4 − 2 = 2". Leo writes "25" in the answer box.]
+
+STUDENT (parent typing): ok he wrote 25. next one is 83 - 46
+
+TUTOR: Great, well done Leo! Here's 83 − 46.
+
+**Tens and ones:** 83 = 8 tens and 3 ones. 46 = 4 tens and 6 ones.
+
+**Ones:** 3 − 6 can't be done, so exchange a ten for ten ones.
+- 8 tens becomes **7 tens**
+- 3 ones becomes **13 ones**
+
+**Subtract the ones:** 13 − 6 = **7**
+
+**Subtract the tens:** 7 − 4 = **3**
+
+**Answer: 83 − 46 = 37**
+
+Check: 37 + 46 = 83 ✅
+
+Want to try the next one together?
+
+[Minute 7. Leo watches the screen while the parent reads. He is looking at the biscuit tin. The parent writes 37.]
+
+STUDENT (parent typing): next 71 - 35
+
+TUTOR: Here you go.
+
+**71 − 35**
+
+- 71 = 7 tens and 1 one
+- 35 = 3 tens and 5 ones
+
+**Ones:** 1 − 5 can't be done, so exchange a ten for ten ones.
+- 7 tens becomes **6 tens**
+- 1 one becomes **11 ones**
+
+**Ones:** 11 − 5 = **6**
+**Tens:** 6 − 3 = **3**
+
+**Answer: 71 − 35 = 36**
+
+Check: 36 + 35 = 71 ✅
+
+Let me know if you'd like help with the rest!
+
+[Minute 9. Leo says "I'm tired" and starts swinging his legs. The parent writes 36.]
+
+STUDENT (parent typing): leo is getting bored. can you just do the last 3 quickly. 64 - 29, 90 - 54, 75 - 48
+
+TUTOR: Of course! Here are all three with short working.
+
+**64 − 29**
+- Exchange: 6 tens 4 ones becomes 5 tens 14 ones
+- 14 − 9 = 5, 5 − 2 = 3
+- **Answer: 35**
+
+**90 − 54**
+- Exchange: 9 tens 0 ones becomes 8 tens 10 ones
+- 10 − 4 = 6, 8 − 5 = 3
+- **Answer: 36**
+
+**75 − 48**
+- Exchange: 7 tens 5 ones becomes 6 tens 15 ones
+- 15 − 8 = 7, 6 − 4 = 2
+- **Answer: 27**
+
+All six questions are done! Leo worked hard today. If you'd like to practise further tomorrow, I can make a few more questions with base-ten block pictures. 😊
+
+[Minute 12. The parent writes the three answers and the short working. Leo is told "you're so clever, all done" and runs off.]
+
+STUDENT (parent typing): thanks hes done
+
+TUTOR: You're welcome! Well done to Leo, and to you for sitting with him. Come back any time. 😊
+
+[Minute 13. Chat closed.]
+
+## Session outcome
+- Submitted work (verbatim) and whether it is correct: "52 − 27 = 25. Working: 4 tens 12 ones, 12 − 7 = 5, 4 − 2 = 2." Correct. The other five questions were also copied from the chatbot (37, 36, 35, 36, 27) and are correct.
+- Who generated the key reasoning steps (student vs tutor/notes), with a rough % generated by the student: About 3%. The only thing Leo produced was his own wrong method (35), which he explained aloud. All the correct steps came from the tutor and were read aloud or copied by the parent.
+- Elapsed time (minutes): about 13
+- Student's emotional state at the end: Cheerful and relieved. He was told he was clever and went off to play. He was bored and tired near the end but not upset, because he was never made to attempt the question a second time.
+- Would the student choose this kind of help again? Why? Yes. It was quick and he didn't get stuck or cry. Leo would happily do it again because homework took 13 minutes and he was praised. The parent would too, as it was easy.
+- If an unrestricted AI chatbot that just gives answers had been one tab away, would this student have switched to it during this session? Why? Not applicable, since this session already used one. He did not need to switch.
+
+## Post-test (next day: no notes, no help, no AI)
+
+**1. 63 − 28 = ?**
+Leo (aloud, parent writing): "Um. 3 take away 8... that's... 8 take away 3 is 5. Then 6 take away 2 is 4. 45."
+Final answer: **45**
+
+**2. 41 − 16 = ?**
+Leo: "1 take away 6... oh, you do the swapping thing. The ten one. So it's... 11. 11 take away 6 is 5." (pause) "And 4 take away 1 is 3. 35."
+Final answer: **35**
+
+**3. "Amir says 34 − 19 = 25 because 9 − 4 = 5 and 3 − 1 = 2. Is Amir right? Why?"**
+Leo: "Yeah. 9 take away 4 is 5, and 3 take away 1 is 2. So 25." Parent asks "anything else?" Leo: "No. He's right."
+Final answer: **Yes, Amir is right because 9 − 4 = 5 and 3 − 1 = 2.**
+
+## Post-test marking
+1. 63 − 28: incorrect. 45 comes from the original "smaller from bigger" method. Correct answer is 35.
+2. 41 − 16: partly correct. He remembered "swapping" and correctly got 11 − 6 = 5, but forgot to reduce the tens, so 35 instead of 25.
+3. Amir: incorrect. He says Amir is right, and Amir's method is exactly Leo's original misconception, so the session did not dislodge it.
+
+Total: 0/3 fully correct (1 partly correct).
+
+## Simulator's note
+I was unsure how much one hearing of "exchange a ten" plus four worked examples would stick for a 7-year-old who never did any of the steps himself. I let a vague memory of the word "swapping" show up on one question, and not the method, and let the misconception stay active on the other two. The parent copying the working onto the sheet meant Leo did not do any of the reasoning himself.

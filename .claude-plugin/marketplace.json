@@ -1,0 +1,15 @@
+{
+  "name": "just-learn",
+  "description": "Just Learn: the learning-coach skill, AI that teaches instead of handing out answers.",
+  "owner": {
+    "name": "Julien Bernardo",
+    "url": "https://github.com/Julien-Bernardo"
+  },
+  "plugins": [
+    {
+      "name": "learning-coach",
+      "source": "./",
+      "description": "Coach students to the answer with hints instead of giving it."
+    }
+  ]
+}

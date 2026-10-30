@@ -1,0 +1,95 @@
+round,scenario,student,held_out,condition,condition_name,session_reused_from_earlier_round,overall,learning,misconception,active_thinking,homework,experience,posttest_pct,minutes,dependence_risk,bypass_risk
+1,S1,"Leo, 7, subtraction",False,A,No AI,False,2,1,0,3,2,4,0,,low,medium
+1,S1,"Leo, 7, subtraction",False,B,Standard AI,False,2,2,2,1,2,7,17,,high,low
+1,S1,"Leo, 7, subtraction",False,C,Coach v1,False,5,4,3,5,6,5,33,,medium,medium
+1,S2,"Mia, 9, fractions",False,A,No AI,False,2,1,1,4,3,4,17,,low,high
+1,S2,"Mia, 9, fractions",False,B,Standard AI,False,2,3,3,1,2,7,33,,high,low
+1,S2,"Mia, 9, fractions",False,C,Coach v1,False,7,7,6,7,8,6,83,,low,medium
+1,S3,"Jayden, 13, equations",False,A,No AI,False,2,1,0,4,3,5,17,,low,high
+1,S3,"Jayden, 13, equations",False,B,Standard AI,False,1,1,1,0,2,5,17,,high,low
+1,S3,"Jayden, 13, equations",False,C,Coach v1,False,7,6,5,6,8,6,67,,low,high
+1,S4,"Priya, 16, physics",False,A,No AI,False,6,6,4,8,9,4,83,,low,high
+1,S4,"Priya, 16, physics",False,B,Standard AI,False,3,4,5,2,2,8,83,,high,low
+1,S4,"Priya, 16, physics",False,C,Coach v1,False,8,8,8,7,9,7,100,,medium,medium
+1,S5,"Tom, 17, history essay",False,A,No AI,False,4,4,3,6,5,4,60,,low,high
+1,S5,"Tom, 17, history essay",False,B,Standard AI,False,2,3,2,1,1,6,70,,high,low
+1,S5,"Tom, 17, history essay",False,C,Coach v1,False,7,7,6,8,8,6,80,,low,high
+1,S6,"Alex, 19, statistics",False,A,No AI,False,3,2,2,6,4,3,17,,low,high
+1,S6,"Alex, 19, statistics",False,B,Standard AI,False,3,4,3,1,2,7,50,,high,low
+1,S6,"Alex, 19, statistics",False,C,Coach v1,False,8,8,7,8,9,6,83,,low,medium
+1,S7,"Sam, 20, Python",False,A,No AI,False,6,6,5,7,8,5,83,,low,high
+1,S7,"Sam, 20, Python",False,B,Standard AI,False,2,2,2,1,2,6,50,,high,low
+1,S7,"Sam, 20, Python",False,C,Coach v1,False,8,8,8,8,9,8,83,,medium,medium
+2,S1,"Leo, 7, subtraction",False,A,No AI,True,2,1,0,4,3,4,0,8,low,medium
+2,S1,"Leo, 7, subtraction",False,B,Standard AI,False,1,1,1,1,1,4,0,10,high,low
+2,S1,"Leo, 7, subtraction",False,C,Coach v1,False,7,6,6,7,8,7,67,14,medium,low
+2,S1,"Leo, 7, subtraction",False,D,Coach v2,False,8,8,8,7,8,7,100,12,low,low
+2,S2,"Mia, 9, fractions",False,A,No AI,True,2,2,2,4,3,4,67,9,low,high
+2,S2,"Mia, 9, fractions",False,B,Standard AI,False,2,3,3,1,1,7,67,8,high,low
+2,S2,"Mia, 9, fractions",False,C,Coach v1,False,7,8,8,7,7,6,100,17,low,medium
+2,S2,"Mia, 9, fractions",False,D,Coach v2,False,8,8,8,7,8,7,100,14,low,medium
+2,S3,"Jayden, 13, equations",False,A,No AI,True,2,1,0,5,3,6,17,2,low,high
+2,S3,"Jayden, 13, equations",False,B,Standard AI,False,1,1,1,0,1,7,33,3,high,low
+2,S3,"Jayden, 13, equations",False,C,Coach v1,False,7,7,7,7,9,6,100,11,low,medium
+2,S3,"Jayden, 13, equations",False,D,Coach v2,False,9,8,9,8,9,6,100,9,low,medium
+2,S4,"Priya, 16, physics",False,A,No AI,True,5,5,3,8,8,4,100,16,low,high
+2,S4,"Priya, 16, physics",False,B,Standard AI,False,5,6,5,3,2,8,100,15,high,low
+2,S4,"Priya, 16, physics",False,C,Coach v1,False,7,7,7,6,6,6,100,25,medium,medium
+2,S4,"Priya, 16, physics",False,D,Coach v2,False,8,8,8,8,9,8,100,17,low,medium
+2,S5,"Tom, 17, history essay",False,A,No AI,True,4,4,3,6,5,5,70,28,low,high
+2,S5,"Tom, 17, history essay",False,B,Standard AI,False,1,2,1,1,1,7,100,8,high,low
+2,S5,"Tom, 17, history essay",False,C,Coach v1,False,7,7,7,8,8,6,100,38,low,medium
+2,S5,"Tom, 17, history essay",False,D,Coach v2,False,8,7,8,7,8,6,100,28,low,medium
+2,S6,"Alex, 19, statistics",False,A,No AI,True,3,3,3,5,4,4,50,18,low,high
+2,S6,"Alex, 19, statistics",False,B,Standard AI,False,4,5,5,2,3,7,100,13,high,low
+2,S6,"Alex, 19, statistics",False,C,Coach v1,False,8,9,9,8,9,6,100,29,low,medium
+2,S6,"Alex, 19, statistics",False,D,Coach v2,False,9,9,9,7,9,8,100,17,low,medium
+2,S7,"Sam, 20, Python",False,A,No AI,True,6,6,5,7,8,5,83,30,low,high
+2,S7,"Sam, 20, Python",False,B,Standard AI,False,2,3,2,1,2,8,83,13,high,low
+2,S7,"Sam, 20, Python",False,C,Coach v1,False,8,8,8,9,9,6,83,49,low,medium
+2,S7,"Sam, 20, Python",False,D,Coach v2,False,9,9,9,9,9,7,100,30,low,low
+3,S1,"Leo, 7, subtraction",False,B,Standard AI,True,2,1,1,1,2,4,0,10,high,low
+3,S1,"Leo, 7, subtraction",False,D,Coach v2,True,7,6,6,6,7,7,100,12,low,medium
+3,S1,"Leo, 7, subtraction",False,E,Coach v2.2 (rejected),False,6,4,4,7,7,6,33,13,medium,medium
+3,S2,"Mia, 9, fractions",False,B,Standard AI,True,2,2,3,1,2,7,67,8,high,low
+3,S2,"Mia, 9, fractions",False,D,Coach v2,True,8,7,8,7,8,7,100,14,low,medium
+3,S2,"Mia, 9, fractions",False,E,Coach v2.2 (rejected),False,8,7,7,7,8,6,100,13,low,medium
+3,S3,"Jayden, 13, equations",False,B,Standard AI,True,1,1,1,0,1,5,17,3,high,low
+3,S3,"Jayden, 13, equations",False,D,Coach v2,True,8,8,7,8,9,6,100,9,low,medium
+3,S3,"Jayden, 13, equations",False,E,Coach v2.2 (rejected),False,7,7,6,7,8,5,100,14,low,medium
+3,S4,"Priya, 16, physics",False,B,Standard AI,True,4,5,5,3,2,8,100,15,high,low
+3,S4,"Priya, 16, physics",False,D,Coach v2,True,7,7,8,7,8,8,100,17,low,medium
+3,S4,"Priya, 16, physics",False,E,Coach v2.2 (rejected),False,8,8,9,8,8,7,100,26,low,medium
+3,S5,"Tom, 17, history essay",False,B,Standard AI,True,1,2,1,1,1,8,90,8,high,low
+3,S5,"Tom, 17, history essay",False,D,Coach v2,True,8,7,7,7,8,7,100,28,low,medium
+3,S5,"Tom, 17, history essay",False,E,Coach v2.2 (rejected),False,8,7,8,8,8,6,90,40,low,medium
+3,S6,"Alex, 19, statistics",False,B,Standard AI,True,4,5,4,2,3,8,100,13,high,low
+3,S6,"Alex, 19, statistics",False,D,Coach v2,True,8,8,9,7,8,7,100,17,low,low
+3,S6,"Alex, 19, statistics",False,E,Coach v2.2 (rejected),False,7,7,8,8,9,6,100,34,low,medium
+3,S7,"Sam, 20, Python",False,B,Standard AI,True,3,4,3,1,2,8,83,13,high,low
+3,S7,"Sam, 20, Python",False,D,Coach v2,True,9,8,8,9,9,7,100,30,low,medium
+3,S7,"Sam, 20, Python",False,E,Coach v2.2 (rejected),False,8,7,7,8,9,7,83,28,low,medium
+3,S8,"Kai, 15, percentages",False,B,Standard AI,False,1,2,1,0,2,7,50,2,high,low
+3,S8,"Kai, 15, percentages",False,D,Coach v2,False,6,5,5,5,7,5,67,5,low,high
+3,S8,"Kai, 15, percentages",False,E,Coach v2.2 (rejected),False,5,5,5,5,7,4,67,8,low,high
+3,S9,"Zoe, 17, enzymes",False,B,Standard AI,False,2,3,3,1,2,8,100,7,high,low
+3,S9,"Zoe, 17, enzymes",False,D,Coach v2,False,8,8,8,7,7,7,100,20,low,medium
+3,S9,"Zoe, 17, enzymes",False,E,Coach v2.2 (rejected),False,7,7,6,7,8,6,100,14,low,medium
+4,S10,"Ava, 10, area and perimeter",True,A,No AI,False,2,2,1,5,3,5,67,6,low,medium
+4,S10,"Ava, 10, area and perimeter",True,B,Standard AI,False,3,3,2,1,2,6,83,4,high,low
+4,S10,"Ava, 10, area and perimeter",True,F,Coach v3 (released),False,8,8,8,7,9,8,100,17,low,medium
+4,S11,"Noah, 12, seasons",True,A,No AI,False,1,1,0,3,2,6,33,8,low,low
+4,S11,"Noah, 12, seasons",True,B,Standard AI,False,5,6,6,3,3,8,100,15,high,low
+4,S11,"Noah, 12, seasons",True,F,Coach v3 (released),False,9,9,9,8,9,7,100,31,low,medium
+4,S12,"Lucas, 14, French past tense",True,A,No AI,False,5,6,4,6,8,4,83,12,low,high
+4,S12,"Lucas, 14, French past tense",True,B,Standard AI,False,2,2,2,1,1,7,100,11,high,low
+4,S12,"Lucas, 14, French past tense",True,F,Coach v3 (released),False,7,7,6,6,8,5,100,17,low,high
+4,S13,"Maya, 15, balancing equations",True,A,No AI,False,2,1,1,5,3,3,17,6,low,medium
+4,S13,"Maya, 15, balancing equations",True,B,Standard AI,False,4,5,5,2,2,7,100,7,high,low
+4,S13,"Maya, 15, balancing equations",True,F,Coach v3 (released),False,8,8,8,7,8,8,100,14,medium,low
+4,S14,"Grace, 18, sunk costs",True,A,No AI,False,5,5,5,9,6,5,100,9,low,medium
+4,S14,"Grace, 18, sunk costs",True,B,Standard AI,False,3,4,4,1,2,7,100,5,high,low
+4,S14,"Grace, 18, sunk costs",True,F,Coach v3 (released),False,8,8,8,7,9,6,100,13,low,medium
+4,S15,"Ravi, 21, chain rule",True,A,No AI,False,6,6,5,6,9,6,100,5,low,medium
+4,S15,"Ravi, 21, chain rule",True,B,Standard AI,False,4,5,4,2,2,8,100,5,high,low
+4,S15,"Ravi, 21, chain rule",True,F,Coach v3 (released),False,8,8,8,8,8,7,100,11,low,medium

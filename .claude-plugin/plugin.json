@@ -1,0 +1,19 @@
+{
+  "name": "learning-coach",
+  "description": "Makes Claude coach students to the answer with hints instead of handing it over. Research-backed, tested on simulated students.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Julien Bernardo",
+    "url": "https://github.com/Julien-Bernardo"
+  },
+  "homepage": "https://github.com/Julien-Bernardo/just-learn",
+  "repository": "https://github.com/Julien-Bernardo/just-learn",
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "tutoring",
+    "learning",
+    "homework",
+    "students"
+  ]
+}
