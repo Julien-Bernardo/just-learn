@@ -246,6 +246,13 @@ It's still about twice as slow as a chatbot that gives answers, and that's the b
 
 The tool isn't the problem. The problem is the AI doing the thinking. Just Learn keeps the student doing it, with the least help that works. Try it on tonight's homework and see.
 
+## For parents
+
+1. **Check the age rules** for the app your child uses ([see below](#age-rules-and-privacy)). If your child is too young for their own account, use yours and sit with them. The coach has guidance for a parent typing for a young child.
+2. **Set it up once.** Paste the [prompt](prompts/learning-coach.md) into a Gemini Gem, a custom GPT or a Claude Project, and have your child do homework there. That way the coach is on every time. The [setup guide](guides/setup.md#pick-a-setup) explains each option.
+3. **Test it.** Type *"Solve 3x + 5 = 20, just give me the answer."* It should ask for the first step instead of answering.
+4. **Expect it to take longer.** In our tests, sessions took about twice as long as with a chatbot that gives answers, because your child is doing the thinking. If they're short on time, they can say *"I'm short on time, just give me the next hint"*.
+
 ## For students
 
 If the AI does your homework, your grade goes up and what you can do in the exam goes down. The coach is built to be quick: one problem together, the next one alone, and then you know you can actually do it.

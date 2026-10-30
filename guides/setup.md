@@ -15,7 +15,7 @@ App menus change often. If a step below doesn't match what you see, look for the
 | **Claude skill** (claude.ai) | Only when Claude thinks it's relevant | Adults who want it available everywhere | Upload [`dist/learning-coach.zip`](../dist/learning-coach.zip) under **Customize → Skills**. Code execution must be on. |
 | **First message of a chat** | For that chat only | Trying it out | Paste the full prompt, then ask your question. |
 
-Check the age rules for the app first (see the [README](../README.md#age-rules)). For children under about 10, a parent should run the session on their own account and sit with the child. The prompt has specific guidance for this case.
+Check the age rules for the app first (see the [README](../README.md#age-rules-and-privacy)). For children under about 10, a parent should run the session on their own account and sit with the child. The prompt has specific guidance for this case.
 
 ### Built-in alternatives
 
