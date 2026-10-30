@@ -9,9 +9,9 @@
   <img alt="Chart: average exam score by homework score for 26,811 secondary students in China. For students who never used AI, higher homework scores go with higher exam scores. For AI users, exam scores peak at a homework score of about 100, then fall to about 64 as homework scores rise to 130." src="assets/homework-vs-exam-light.svg" width="800">
 </picture>
 
-A study tracked 26,811 secondary students in China for 30 months. AI users' homework scores rose 18%, and their closed-book exam scores fell 20%. For students who never used AI, better homework goes with better exams. For AI users, it flips: past a certain point, the better the homework, the worse the exam.
+A [new working paper](https://ssrn.com/abstract=6868618) (Strömberg, Lei & Wu, 2026) tracked 26,811 secondary students in China for 30 months. AI users' homework scores rose 18%, and their closed-book exam scores fell 20%. For students who never used AI, better homework goes with better exams. For AI users, it flips: past a certain point, the better the homework, the worse the exam.
 
-The paper's explanation is that 81% of AI users weren't being tutored. They were outsourcing their homework, so the AI did the work and the AI did the learning. Students who spent the same time on their homework got similar exam scores, with or without AI. ([Chart data](research/figures/).)
+The paper's explanation is that 81% of AI users weren't being tutored. They were outsourcing their homework, so the AI did the work and the AI did the learning. Students who spent the same time on their homework got similar exam scores, with or without AI. ([Read the paper](https://ssrn.com/abstract=6868618) · [chart data](research/figures/))
 
 **So the problem isn't AI. It's who does the thinking.**
 
