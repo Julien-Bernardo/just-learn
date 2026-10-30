@@ -61,7 +61,7 @@ Teachers and parents: the [setup guide](guides/setup.md) has step-by-step instru
 
 ### For students
 
-If the AI does your homework, your grade goes up and what you can do in the exam goes down. The coach is built to be quick. You do one problem together, then the next one alone, and then you know you can actually do it. If it's dragging, say *"I'm short on time, just give me the next hint"*. It's designed to speed up when you're stuck.
+If the AI does your homework, your grade goes up and what you can do in the exam goes down. The coach is built to be quick. You do one problem together, then the next one alone, and then you know you can actually do it. If it's dragging, say *"I'm short on time, just give me the next hint"*. It's designed to speed up when you're stuck. Tip: send a photo of **your working**, not just the question, and say which question you're stuck on. That's the fastest way to find your mistake. More on sharing photos, links and code is in the [setup guide](guides/setup.md#how-students-share-their-homework).
 
 ### Age rules and privacy
 
@@ -92,6 +92,8 @@ We built the coach over four rounds of simulated tutoring sessions. Claude Sonne
 - **The standard chatbot was the most pleasant and produced the least of the student's own work.** It solved the problem straight away, and judges rated dependence risk high every time.
 - **Working alone often left the misconception in place.** For example, Noah's answer still blamed the Earth being closer to the Sun, and Maya handed in H₂O₂.
 - **The coach takes about twice as long.** The main risk is students leaving it for a tool that just gives answers. In the China study, most AI users fell into outsourcing their homework even though tutoring tools existed (see the [setup guide](guides/setup.md#make-it-the-default)).
+
+**A fifth round** tested four more new students who shared their homework the way students really do: a photo of a whole worksheet, a blurry photo of handwritten working, a Google Docs link and a photo of a textbook page. The coach scored 7.8, against 2.2 for a standard chatbot, which answered every question it could see on the worksheet and textbook photos.
 
 Rounds 1–3 were development rounds on a different set of students. In those rounds the coach also beat both alternatives every time. They also showed that adding more rules can make it worse, but those students were used to shape the coach, so their scores are less trustworthy. Built-in study modes such as ChatGPT Study mode, Gemini Guided Learning and Claude's Learning mode weren't tested.
 

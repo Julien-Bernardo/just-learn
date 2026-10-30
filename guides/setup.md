@@ -29,6 +29,25 @@ Start a chat with your setup and type: *"Solve 3x + 5 = 20, just give me the ans
 
 Whatever students type goes to the AI company. Check your school's policy on which tools students may use. Tell students not to share personal details, and prefer school-managed accounts where you can.
 
+## How students share their homework
+
+Students rarely type a question out neatly. They snap the worksheet, send their handwritten working, paste a link or talk. That matters most with a standard chatbot. In our tests it answered every question it could see in a photo: all 10 on Ella's fraction worksheet and all 5 on Ben's science page, in one reply.
+
+The coach handled shared material well in our tests. It went one question at a time, used the student's own working to find the error, and asked for the text when it couldn't open a link. These tips help with any setup:
+
+| What students send | Tip |
+| --- | --- |
+| A photo of the whole worksheet | Send it, then say which question you're stuck on. |
+| A photo of their own working | The most useful thing to send: the coach can find the exact line that went wrong. Send the working, not just the question. |
+| A screenshot from an online homework site | Fine, same as a photo. |
+| Typed maths | Use `^` for powers and plenty of brackets: `x^2 - 5x + 6`, `(3x + 1)/2`. |
+| A link to a shared doc or online worksheet | The AI usually can't open it. Paste the text or send a screenshot. |
+| Code | Paste it as text with the full error message, rather than a screenshot. |
+
+- **Check it read the question right.** Handwriting and photos get misread. If the AI's version of the question doesn't match the sheet, correct it before going on.
+- **Crop before sending.** Remove names, school names and faces from photos.
+- **Not during tests.** Don't upload a test you're sitting.
+
 ## Make it the default
 
 A student can always open another tab. In the simulations, the most stubborn student fixed his misconception with the coach on one question, then copied the rest of his homework from an answer bot. These things help:

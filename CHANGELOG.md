@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1 (2026-10-30)
+
+- Round 5: four held-out students who share their homework as photos and links. Coach v3 scored 7.8, against 2.2 for a standard chatbot.
+- v3.1, which added rules for photos, files and links, tied with v3 (7.8 each) and was not adopted.
+- A new section in the setup guide on how students share homework, and a tip for students in the README.
+
 ## 0.3.0 (2026-10-30)
 
 First public release.

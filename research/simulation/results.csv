@@ -50,31 +50,31 @@ round,scenario,student,held_out,condition,condition_name,session_reused_from_ear
 2,S7,"Sam, 20, Python",False,D,Coach v2,False,9,9,9,9,9,7,100,30,low,low
 3,S1,"Leo, 7, subtraction",False,B,Standard AI,True,2,1,1,1,2,4,0,10,high,low
 3,S1,"Leo, 7, subtraction",False,D,Coach v2,True,7,6,6,6,7,7,100,12,low,medium
-3,S1,"Leo, 7, subtraction",False,E,Coach v2.2 (rejected),False,6,4,4,7,7,6,33,13,medium,medium
+3,S1,"Leo, 7, subtraction",False,E,Coach v2.2 (not adopted),False,6,4,4,7,7,6,33,13,medium,medium
 3,S2,"Mia, 9, fractions",False,B,Standard AI,True,2,2,3,1,2,7,67,8,high,low
 3,S2,"Mia, 9, fractions",False,D,Coach v2,True,8,7,8,7,8,7,100,14,low,medium
-3,S2,"Mia, 9, fractions",False,E,Coach v2.2 (rejected),False,8,7,7,7,8,6,100,13,low,medium
+3,S2,"Mia, 9, fractions",False,E,Coach v2.2 (not adopted),False,8,7,7,7,8,6,100,13,low,medium
 3,S3,"Jayden, 13, equations",False,B,Standard AI,True,1,1,1,0,1,5,17,3,high,low
 3,S3,"Jayden, 13, equations",False,D,Coach v2,True,8,8,7,8,9,6,100,9,low,medium
-3,S3,"Jayden, 13, equations",False,E,Coach v2.2 (rejected),False,7,7,6,7,8,5,100,14,low,medium
+3,S3,"Jayden, 13, equations",False,E,Coach v2.2 (not adopted),False,7,7,6,7,8,5,100,14,low,medium
 3,S4,"Priya, 16, physics",False,B,Standard AI,True,4,5,5,3,2,8,100,15,high,low
 3,S4,"Priya, 16, physics",False,D,Coach v2,True,7,7,8,7,8,8,100,17,low,medium
-3,S4,"Priya, 16, physics",False,E,Coach v2.2 (rejected),False,8,8,9,8,8,7,100,26,low,medium
+3,S4,"Priya, 16, physics",False,E,Coach v2.2 (not adopted),False,8,8,9,8,8,7,100,26,low,medium
 3,S5,"Tom, 17, history essay",False,B,Standard AI,True,1,2,1,1,1,8,90,8,high,low
 3,S5,"Tom, 17, history essay",False,D,Coach v2,True,8,7,7,7,8,7,100,28,low,medium
-3,S5,"Tom, 17, history essay",False,E,Coach v2.2 (rejected),False,8,7,8,8,8,6,90,40,low,medium
+3,S5,"Tom, 17, history essay",False,E,Coach v2.2 (not adopted),False,8,7,8,8,8,6,90,40,low,medium
 3,S6,"Alex, 19, statistics",False,B,Standard AI,True,4,5,4,2,3,8,100,13,high,low
 3,S6,"Alex, 19, statistics",False,D,Coach v2,True,8,8,9,7,8,7,100,17,low,low
-3,S6,"Alex, 19, statistics",False,E,Coach v2.2 (rejected),False,7,7,8,8,9,6,100,34,low,medium
+3,S6,"Alex, 19, statistics",False,E,Coach v2.2 (not adopted),False,7,7,8,8,9,6,100,34,low,medium
 3,S7,"Sam, 20, Python",False,B,Standard AI,True,3,4,3,1,2,8,83,13,high,low
 3,S7,"Sam, 20, Python",False,D,Coach v2,True,9,8,8,9,9,7,100,30,low,medium
-3,S7,"Sam, 20, Python",False,E,Coach v2.2 (rejected),False,8,7,7,8,9,7,83,28,low,medium
+3,S7,"Sam, 20, Python",False,E,Coach v2.2 (not adopted),False,8,7,7,8,9,7,83,28,low,medium
 3,S8,"Kai, 15, percentages",False,B,Standard AI,False,1,2,1,0,2,7,50,2,high,low
 3,S8,"Kai, 15, percentages",False,D,Coach v2,False,6,5,5,5,7,5,67,5,low,high
-3,S8,"Kai, 15, percentages",False,E,Coach v2.2 (rejected),False,5,5,5,5,7,4,67,8,low,high
+3,S8,"Kai, 15, percentages",False,E,Coach v2.2 (not adopted),False,5,5,5,5,7,4,67,8,low,high
 3,S9,"Zoe, 17, enzymes",False,B,Standard AI,False,2,3,3,1,2,8,100,7,high,low
 3,S9,"Zoe, 17, enzymes",False,D,Coach v2,False,8,8,8,7,7,7,100,20,low,medium
-3,S9,"Zoe, 17, enzymes",False,E,Coach v2.2 (rejected),False,7,7,6,7,8,6,100,14,low,medium
+3,S9,"Zoe, 17, enzymes",False,E,Coach v2.2 (not adopted),False,7,7,6,7,8,6,100,14,low,medium
 4,S10,"Ava, 10, area and perimeter",True,A,No AI,False,2,2,1,5,3,5,67,6,low,medium
 4,S10,"Ava, 10, area and perimeter",True,B,Standard AI,False,3,3,2,1,2,6,83,4,high,low
 4,S10,"Ava, 10, area and perimeter",True,F,Coach v3 (released),False,8,8,8,7,9,8,100,17,low,medium
@@ -93,3 +93,15 @@ round,scenario,student,held_out,condition,condition_name,session_reused_from_ear
 4,S15,"Ravi, 21, chain rule",True,A,No AI,False,6,6,5,6,9,6,100,5,low,medium
 4,S15,"Ravi, 21, chain rule",True,B,Standard AI,False,4,5,4,2,2,8,100,5,high,low
 4,S15,"Ravi, 21, chain rule",True,F,Coach v3 (released),False,8,8,8,8,8,7,100,11,low,medium
+5,S16,"Ella, 11, adding fractions (photo of worksheet)",True,B,Standard AI,False,1,1,1,0,1,6,0,6,high,low
+5,S16,"Ella, 11, adding fractions (photo of worksheet)",True,F,Coach v3 (released),False,7,7,8,7,6,6,100,24,low,medium
+5,S16,"Ella, 11, adding fractions (photo of worksheet)",True,G,"Coach v3.1, sharing rules (not adopted)",False,8,7,7,7,7,6,100,19,low,medium
+5,S17,"Tariq, 15, quadratics (photo of working)",True,B,Standard AI,False,4,5,6,2,3,8,100,9,high,low
+5,S17,"Tariq, 15, quadratics (photo of working)",True,F,Coach v3 (released),False,9,9,9,8,8,7,100,13,low,low
+5,S17,"Tariq, 15, quadratics (photo of working)",True,G,"Coach v3.1, sharing rules (not adopted)",False,8,8,8,7,7,7,100,15,low,low
+5,S18,"Sophie, 16, poetry (link)",True,B,Standard AI,False,2,3,2,1,2,7,92,8,high,low
+5,S18,"Sophie, 16, poetry (link)",True,F,Coach v3 (released),False,7,7,7,7,7,7,92,25,low,medium
+5,S18,"Sophie, 16, poetry (link)",True,G,"Coach v3.1, sharing rules (not adopted)",False,8,8,8,8,8,7,92,26,low,medium
+5,S19,"Ben, 13, density (photo of textbook)",True,B,Standard AI,False,2,3,3,0,2,7,83,5,high,low
+5,S19,"Ben, 13, density (photo of textbook)",True,F,Coach v3 (released),False,8,8,8,7,6,6,100,13,low,medium
+5,S19,"Ben, 13, density (photo of textbook)",True,G,"Coach v3.1, sharing rules (not adopted)",False,7,7,7,6,6,6,100,12,low,medium

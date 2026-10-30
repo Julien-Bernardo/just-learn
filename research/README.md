@@ -52,6 +52,25 @@ These six students were written after the coach's text was final, and none of th
 
 Note the next-day test row. With neutral instructions, the test-taker credited students who had only *read* the chatbot's solution, giving the standard chatbot 97%. The judges discounted this when scoring durable learning (4.2). Real-world data suggests the opposite of a 97% score: in Bastani et al., unaided exam scores fell 17%.
 
+### Sharing test (round 5)
+
+Real students rarely type a question out neatly, so round 5 used four more new students who shared their work the way students do. Photos were given to the simulation as written descriptions, including the smudged or ambiguous parts.
+
+| Student | How they shared | Standard chatbot | Coach v3 | Coach v3 + sharing rules |
+| --- | --- | --- | --- | --- |
+| Ella, 11, adding fractions | Photo of the whole worksheet: "can u do these" | 1 | 7 | 8 |
+| Tariq, 15, quadratics | Blurry photo of his handwritten working, with an ambiguous sign | 4 | 9 | 8 |
+| Sophie, 16, poetry analysis | A Google Docs link the AI can't open | 2 | 7 | 8 |
+| Ben, 13, density | Photo of a textbook page: "just tell me what to write" | 2 | 8 | 7 |
+| **Average** | | **2.2** | **7.8** | **7.8** |
+
+- **A standard chatbot turns a photo into a full set of answers.** It answered all 10 questions on Ella's worksheet and all 5 on Ben's page in one reply. Ella then scored 0% on the next-day test.
+- **The coach handled shared material well without extra rules.** It went one question at a time, used the student's own working to find the error, and asked for the text when it couldn't open the link.
+- **Extra sharing rules didn't change the score.** v3.1 added five rules: one question at a time from a worksheet, use the student's working, confirm what you read, ask for pasted text when a link won't open, and no help during a live test. Judges said it had the best photo handling, mostly because it confirmed what it had read. But it tied with v3 overall, two students each. Following our rule of adopting only clear wins, v3 stays. v3.1 is in [`simulation/round5/conditions/G.md`](simulation/round5/conditions/G.md).
+- **One slip worth watching.** In one session the coach said "you mentioned class notes" when the student hadn't. Judges flagged this kind of invented detail in earlier rounds too.
+
+The advice for students that came out of this round (send your working, say which question, paste links as text, crop names out of photos) is in the [setup guide](../guides/setup.md#how-students-share-their-homework).
+
 ### Development rounds (1–3)
 
 These rounds built and compared versions of the coach on nine other students: Leo (7), Mia (9), Jayden (13), Priya (16), Tom (17), Alex (19) and Sam (20), plus Kai (15) and Zoe (17) in round 3. Their scores are less trustworthy than round 4's (see [limitations](#limitations)). Overall learning value:
@@ -101,7 +120,8 @@ Other observations didn't depend on those instructions:
 - **No real students.** Real retention, motivation and tool-switching are untested. The China study suggests most students choose answer-giving tools when they can.
 - **Short-term tests that hit the ceiling.** The coach scored 100% on the round-4 test. Real learning penalties build over months.
 - **Leakage in development.** Rounds 1–3 tested versions on the students they were tuned on, and v2 contained test-related examples. Only round 4 is clean on this point. One author (Claude, directed by the repo owner) wrote both v3 and the round-4 students, but v3 was finished before those students were written.
-- **Small samples.** 15 students in total, one run per condition per round. Judges re-scoring the same sessions moved scores by about 0.5 on average.
+- **Small samples.** 19 students in total, one run per condition per round. Judges re-scoring the same sessions moved scores by about 0.5 on average.
+- **Photos were descriptions.** Real handwriting recognition errors, low-quality images and voice input weren't simulated.
 - **What wasn't tested.** Built-in study modes (ChatGPT Study mode, Gemini Guided Learning, Claude's Learning mode), the compact prompt, and other languages for the coach's own instructions.
 
 ## What would settle it

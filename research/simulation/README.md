@@ -11,7 +11,8 @@ Everything needed to inspect or rerun the study. It's Markdown instructions for 
 | C | Coach v1 | `round1/conditions/C.md` |
 | D | Coach v2 | `round2/conditions/D.md` |
 | E | Coach v2.2, not adopted | `round3/conditions/E.md` |
-| F | **Coach v3, the released skill** | `round4/conditions/F.md` |
+| F | **Coach v3, the released skill** | `round4/conditions/F.md` (also `round5/`) |
+| G | Coach v3.1: v3 plus rules for photos, files and links (tied with v3, not adopted) | `round5/conditions/G.md` |
 
 ## Rounds
 
@@ -21,6 +22,7 @@ Everything needed to inspect or rerun the study. It's Markdown instructions for 
 | 2 | S1–S7 | A (reused from round 1, fresh test), B, C, D | Separate test-taker. Its instructions describe how memory works, including that corrected-but-not-discredited misconceptions return. |
 | 3 | S1–S9 | B and D for S1–S7 (round-2 sessions, judged again), plus new B, D, E | Adds two stubborn students; Kai's profile says he switches tabs after a second refusal. |
 | 4 | S10–S15 (held out) | A, B, F | New students written after v3 was final. Neutral test-taker instructions. **The main result.** |
+| 5 | S16–S19 (held out) | B, F, G | Students share photos, links and handwritten working, given as `[PHOTO: ...]` and `[LINK: ...]` descriptions (see `round5/rules.md`). The judge rubric adds a focus on handling shared material. |
 
 ## Files in each round
 

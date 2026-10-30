@@ -1,7 +1,7 @@
 {
   "name": "learning-coach",
   "description": "Makes Claude coach students to the answer with hints instead of handing it over. Research-backed, tested on simulated students.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Julien Bernardo",
     "url": "https://github.com/Julien-Bernardo"
