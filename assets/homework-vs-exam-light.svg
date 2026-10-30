@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 516" width="800" height="516" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Homework scores up, exam scores down</title>
+<desc id="d">Average closed-book exam score by homework score for 26,811 Chinese secondary students, January 2023 to June 2025, scaled so the average without AI is 100. For students who never used AI, higher homework scores go with higher exam scores, rising to about 111. For AI users, exam scores peak just under 100 at a homework score of about 104, then fall to about 64 at a homework score of 131. Data: Stromberg, Lei and Wu (2026), Figure A11.</desc>
+<rect width="800" height="516" rx="12" fill="#fcfcfb"/>
+<text x="24" y="44" font-size="22" font-weight="600" fill="#0b0b0b">Homework scores up, exam scores down</text>
+<text x="24" y="70" font-size="14" fill="#52514e">Average exam score by homework score, 26,811 secondary students in China, Jan 2023 to Jun 2025</text>
+<line x1="24" y1="94" x2="44" y2="94" stroke="#2a78d6" stroke-width="2.5" stroke-linecap="round"/>
+<text x="52" y="98.5" font-size="13" fill="#52514e">Never used AI</text>
+<line x1="174" y1="94" x2="194" y2="94" stroke="#eb6834" stroke-width="2.5" stroke-linecap="round"/>
+<text x="202" y="98.5" font-size="13" fill="#52514e">Using AI</text>
+<rect x="294" y="88" width="20" height="12" rx="2" fill="#52514e" fill-opacity="0.22"/>
+<text x="322" y="98.5" font-size="13" fill="#52514e">95% confidence interval</text>
+<line x1="64" y1="428.0" x2="772" y2="428.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="432.5" font-size="12" text-anchor="end" fill="#8a8984">50</text>
+<line x1="64" y1="383.7" x2="772" y2="383.7" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="388.2" font-size="12" text-anchor="end" fill="#8a8984">60</text>
+<line x1="64" y1="339.4" x2="772" y2="339.4" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="343.9" font-size="12" text-anchor="end" fill="#8a8984">70</text>
+<line x1="64" y1="295.1" x2="772" y2="295.1" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="299.6" font-size="12" text-anchor="end" fill="#8a8984">80</text>
+<line x1="64" y1="250.9" x2="772" y2="250.9" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="255.4" font-size="12" text-anchor="end" fill="#8a8984">90</text>
+<line x1="64" y1="206.6" x2="772" y2="206.6" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="211.1" font-size="12" text-anchor="end" fill="#8a8984">100</text>
+<line x1="64" y1="162.3" x2="772" y2="162.3" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="166.8" font-size="12" text-anchor="end" fill="#8a8984">110</text>
+<line x1="64" y1="118.0" x2="772" y2="118.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="54" y="122.5" font-size="12" text-anchor="end" fill="#8a8984">120</text>
+<text x="114.6" y="450" font-size="12" text-anchor="middle" fill="#8a8984">80</text>
+<text x="241.0" y="450" font-size="12" text-anchor="middle" fill="#8a8984">90</text>
+<text x="367.4" y="450" font-size="12" text-anchor="middle" fill="#8a8984">100</text>
+<text x="493.9" y="450" font-size="12" text-anchor="middle" fill="#8a8984">110</text>
+<text x="620.3" y="450" font-size="12" text-anchor="middle" fill="#8a8984">120</text>
+<text x="746.7" y="450" font-size="12" text-anchor="middle" fill="#8a8984">130</text>
+<text x="418.0" y="476" font-size="13" text-anchor="middle" fill="#52514e">Homework score (100 = average without AI)</text>
+<text transform="translate(18,273.0) rotate(-90)" font-size="13" text-anchor="middle" fill="#52514e">Exam score (100 = average without AI)</text>
+<line x1="64" y1="206.6" x2="772" y2="206.6" stroke="#52514e" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M84.5,260.8 L94.5,375.8 L104.5,338.9 L114.3,308.0 L124.3,289.5 L134.3,267.9 L144.3,258.5 L154.3,258.7 L164.3,251.3 L174.1,245.9 L184.1,243.7 L194.1,239.7 L204.1,234.4 L214.1,229.2 L223.9,228.2 L233.9,227.8 L243.9,224.7 L253.9,221.9 L263.9,219.8 L273.7,218.0 L283.7,216.7 L293.7,215.2 L303.7,213.4 L313.7,211.9 L323.7,210.2 L333.5,208.9 L343.5,208.2 L353.5,207.2 L363.5,205.9 L373.5,204.6 L383.5,203.4 L393.3,201.5 L403.3,199.4 L413.3,198.0 L423.3,196.3 L433.2,193.6 L443.2,190.8 L453.1,188.3 L463.1,186.0 L473.1,184.2 L483.1,182.3 L493.0,179.0 L503.0,176.3 L512.9,172.9 L522.9,170.7 L532.9,166.6 L542.8,169.4 L552.8,179.8 L562.8,179.3 L572.7,189.8 L572.7,120.5 L562.8,132.7 L552.8,150.2 L542.8,148.6 L532.9,153.7 L522.9,162.0 L512.9,166.8 L503.0,171.7 L493.0,175.4 L483.1,179.3 L473.1,181.8 L463.1,184.1 L453.1,186.7 L443.2,189.3 L433.2,192.3 L423.3,195.1 L413.3,196.9 L403.3,198.4 L393.3,200.5 L383.5,202.4 L373.5,203.6 L363.5,204.8 L353.5,206.2 L343.5,207.0 L333.5,207.7 L323.7,208.9 L313.7,210.4 L303.7,211.8 L293.7,213.4 L283.7,214.8 L273.7,215.8 L263.9,217.2 L253.9,218.9 L243.9,221.3 L233.9,223.7 L223.9,223.2 L214.1,223.2 L204.1,227.3 L194.1,231.1 L184.1,233.4 L174.1,232.3 L164.3,233.0 L154.3,234.5 L144.3,228.8 L134.3,236.3 L124.3,250.1 L114.3,183.5 L104.5,119.9 L94.5,136.2 L84.5,260.8 Z" fill="#2a78d6" fill-opacity="0.16"/>
+<path d="M118.7,270.2 L131.8,402.6 L144.8,278.0 L157.9,293.2 L171.0,297.4 L184.1,303.2 L197.1,260.6 L210.2,250.9 L223.3,261.1 L236.3,253.2 L249.3,244.6 L262.5,244.9 L275.5,236.9 L288.5,231.3 L301.7,227.2 L314.7,224.6 L327.9,221.9 L340.9,218.6 L353.9,217.2 L367.0,215.9 L380.1,215.7 L393.1,213.8 L406.2,214.1 L419.3,212.1 L432.3,214.5 L445.4,214.7 L458.5,216.4 L471.6,219.8 L484.6,222.2 L497.6,225.2 L510.8,228.9 L523.8,233.0 L536.8,238.1 L550.0,247.5 L563.0,258.5 L576.0,270.0 L589.2,284.6 L602.2,297.2 L615.4,304.7 L628.4,310.7 L641.4,318.5 L654.5,325.2 L667.6,333.5 L680.6,338.9 L693.7,343.6 L706.8,345.8 L719.8,351.0 L732.9,358.0 L746.0,371.0 L759.1,406.2 L759.1,329.9 L746.0,340.0 L732.9,345.7 L719.8,342.8 L706.8,340.0 L693.7,339.3 L680.6,335.4 L667.6,330.5 L654.5,322.5 L641.4,315.8 L628.4,307.9 L615.4,301.7 L602.2,294.0 L589.2,281.1 L576.0,266.5 L563.0,255.0 L550.0,244.1 L536.8,234.7 L523.8,229.7 L510.8,225.8 L497.6,222.2 L484.6,219.1 L471.6,216.6 L458.5,213.1 L445.4,211.5 L432.3,211.3 L419.3,208.8 L406.2,210.8 L393.1,210.3 L380.1,212.1 L367.0,212.1 L353.9,213.1 L340.9,214.1 L327.9,216.9 L314.7,219.0 L301.7,220.5 L288.5,223.5 L275.5,227.6 L262.5,233.5 L249.3,230.1 L236.3,236.6 L223.3,238.1 L210.2,220.9 L197.1,220.9 L184.1,255.6 L171.0,250.1 L157.9,246.6 L144.8,208.2 L131.8,220.9 L118.7,270.2 Z" fill="#eb6834" fill-opacity="0.16"/>
+<path d="M84.5,260.9 L94.5,256.0 L104.5,229.5 L114.3,245.8 L124.3,269.8 L134.3,252.1 L144.3,243.6 L154.3,246.6 L164.1,242.2 L174.1,239.1 L184.1,238.5 L194.1,235.4 L204.1,230.9 L213.9,226.2 L223.9,225.7 L233.9,225.7 L243.9,223.0 L253.9,220.4 L263.8,218.5 L273.7,217.0 L283.7,215.7 L293.7,214.3 L303.7,212.6 L313.7,211.2 L323.7,209.5 L333.5,208.3 L343.5,207.6 L353.5,206.7 L363.5,205.3 L373.4,204.1 L383.4,202.9 L393.3,201.0 L403.3,199.0 L413.3,197.5 L423.2,195.7 L433.2,192.9 L443.2,190.0 L453.1,187.5 L463.1,185.0 L473.1,183.0 L483.1,180.8 L493.0,177.3 L503.0,174.0 L512.9,169.8 L522.9,166.3 L532.9,160.2 L542.8,159.0 L552.8,165.0 L562.8,156.0 L572.7,155.2" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M118.6,270.2 L131.8,311.8 L144.8,243.1 L157.9,269.9 L171.0,273.8 L184.0,279.4 L197.1,240.8 L210.2,235.9 L223.2,249.6 L236.3,244.9 L249.3,237.3 L262.5,239.2 L275.5,232.2 L288.5,227.4 L301.7,223.9 L314.7,221.9 L327.7,219.4 L340.9,216.4 L353.9,215.2 L367.0,214.0 L380.1,213.9 L393.1,212.1 L406.2,212.5 L419.3,210.5 L432.3,212.9 L445.4,213.1 L458.5,214.8 L471.6,218.2 L484.6,220.7 L497.6,223.7 L510.8,227.4 L523.8,231.4 L536.8,236.4 L550.0,245.8 L563.0,256.7 L576.0,268.3 L589.2,282.9 L602.2,295.6 L615.4,303.2 L628.4,309.3 L641.4,317.2 L654.5,323.8 L667.6,332.0 L680.6,337.1 L693.7,341.4 L706.8,342.9 L719.8,347.0 L732.9,351.9 L746.0,355.5 L759.1,368.0" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="580.7" y="159.2" font-size="13" font-weight="600" fill="#0b0b0b">Never used AI</text>
+<text x="614.2" y="285.6" font-size="13" font-weight="600" fill="#0b0b0b">Using AI</text>
+<circle cx="367.0" cy="214.0" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="367.0" y="238.0" font-size="12" text-anchor="middle" fill="#52514e">62 min on homework</text>
+<circle cx="615.4" cy="303.2" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="605.4" y="307.2" font-size="12" text-anchor="end" fill="#52514e">43 min</text>
+<text x="24" y="504" font-size="11" fill="#8a8984">Source: Strömberg, Lei &amp; Wu (2026), SSRN 6868618, Figure A11. Smoothed means; observational data. Redrawn for Just Learn.</text>
+</svg>

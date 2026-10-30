@@ -4,7 +4,14 @@
 
 AI that teaches instead of doing the homework.
 
-Students who use AI for homework hand in better homework and do worse in exams. I built Just Learn after seeing those numbers. It's one prompt, also packaged as a Claude skill, that turns ChatGPT, Gemini or Claude into a learning coach. The coach asks for your attempt, lets you catch your own mistake, gives the smallest hint that gets you moving, and leaves the thinking with you.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/homework-vs-exam-dark.svg">
+  <img alt="Chart: average exam score by homework score for 26,811 secondary students in China. For students who never used AI, higher homework scores go with higher exam scores. For AI users, exam scores peak at a homework score of about 100, then fall to about 64 as homework scores rise to 130." src="assets/homework-vs-exam-light.svg" width="800">
+</picture>
+
+Students who use AI for homework hand in better homework and do worse in exams. In a study of 26,811 students in China, AI users with above-average homework scores did *worse* in exams the better their homework got. The paper's explanation is that most AI users weren't being tutored; they were outsourcing their homework ([chart data](research/figures/)).
+
+I built Just Learn after seeing that chart. It's one prompt, also packaged as a Claude skill, that turns ChatGPT, Gemini or Claude into a learning coach. The coach asks for your attempt, lets you catch your own mistake, gives the smallest hint that gets you moving, and leaves the thinking with you.
 
 It's free and small, and it's built on learning science you can check. Paste it into the chatbot you already use.
 
